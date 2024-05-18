@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora Crew</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(to right, #FFB830, #FF5733, #FF6B9E); /* Jaune à Rose */
+            color: #ffffff; /* Texte en blanc */
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(255, 105, 180, 0.5);
+            border-radius: 15px;
+            border: 2px solid rgba(255, 105, 180, 0.5);
+            backdrop-filter: blur(10px);
+            position: relative;
+        }
+        h1 {
+            font-family: 'Pacifico', cursive;
+            color: #ff79c6; /* Titre en rose */
+            text-align: center;
+            font-size: 3em; /* Titre plus grand */
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre pour mettre en valeur */
+        }
+        p, ul {
+            color: #ffffff; /* Texte en blanc */
+        }
+        ul {
+            list-style: disc inside;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            color: #bd93f9;
+            text-decoration: none;
+            font-weight: bold; /* Lien plus gras */
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 5px 10px;
+            padding: 10px 20px;
+            background-color: #ff79c6;
+            border-radius: 10px;
+            color: #fff;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .social-links a:hover {
+            background-color: #bd93f9;
+        }
+        .contact {
+            margin-top: 20px;
+            background: rgba(255, 105, 180, 0.3);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%;
+            border: 3px solid #ff79c6;
+        }
+        .emoji {
+            font-size: 1.2em;
+        }
+        .star {
+            position: absolute;
+            background: url('https://image.shutterstock.com/image-vector/star-icon-vector-260nw-1033997397.jpg') no-repeat center;
+            background-size: contain;
+            width: 50px;
+            height: 50px;
+            animation: float 4s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="image/aurora logo.jpg" alt="Aurora Crew Logo">
+        </div>
+        <h1><span style="background-color: rgba(255, 255, 255, 0.5); padding: 5px;">Bienvenue chez Aurora Crew 🌌✨</span></h1>
+        <p>Salut ! Nous sommes Aurora Crew, votre destination préférée pour l'ambiance K-pop et danse. Après avoir longuement réfléchi et ressenti, nous avons donné vie à ce crew le 28 juin 2023.</p>
+        <p class="emoji">🔥 Ce que nous offrons :</p>
+        <ul>
+            <li>Des performances de danse K-pop</li>
+            <li>Des bêtisiers et des courts métrages amusants</li>
+            <li>Des sessions de randoms à venir</li>
+            <li>Des collaborations et des événements en direct</li>
+        </ul>
+        <p class="social-links">
+            💬 Joignez-vous à l'aventure :
+            <br>
+            <a href="https://www.youtube.com/@Aurora_Crew" target="_blank">YouTube</a>
+            <a href="https://www.instagram.com/_aurora_crew_" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/@_aurora_crew_" target="_blank">TikTok</a>
+        </p>
+        <p>Abonnez-vous pour faire partie de notre voyage ! Suivez-nous sur Instagram (@_aurora_crew_) pour plus de contenu. Restez à l'écoute pour nos prochaines aventures sur TikTok !</p>
+        <div class="contact">
+            📩 Contactez-nous : Envoyez-nous un e-mail à <a href="mailto:aurora.crew2806@gmail.com" style="color: #ff79c6; font-weight: bold; background-color: rgba(255, 255, 255, 0.5); padding: 3px;">aurora.crew2806@gmail.com</a> pour des collaborations ou des questions.
+        </div>
+        <p>Merci d'être de la partie dans l'aventure d'Aurora Crew. Dansons ensemble vers la magie ! ✨</p>
+    </div>
+    <div class="star" style="top: 10px; left: 20px;"></div>
+    <div class="star" style="top: 80px; left: 200px;"></div>
+    <div class="star" style="top: 150px; left: 150px;"></div>
+    <div class="star" style="top: 220px; left: 300px;"></div>
+</body>
+</html>
